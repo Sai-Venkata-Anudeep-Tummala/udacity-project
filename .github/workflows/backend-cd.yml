@@ -1,4 +1,3 @@
-```yaml
 name: Backend CD
 
 on:
@@ -143,4 +142,3 @@ jobs:
         working-directory: starter/backend/k8s
         run: |
           kustomize build | kubectl apply -f -
-```
